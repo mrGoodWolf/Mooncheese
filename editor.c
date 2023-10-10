@@ -89,7 +89,7 @@ int main()
         }
                 
         /* Если команда не известна */
-        fprintf(stderr, "Unknown command: %s\n", cmd);
+        fprintf(stderr, "Unknown:Command %s\n", cmd);
     }
 
     return 0;
